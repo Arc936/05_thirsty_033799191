@@ -5,7 +5,7 @@ const router = express.Router();
 // Define our data
 var shopData = {shopName: "The Thirsty Student", 
                 productCategories:["Beer", "Wine", "Soft Drinks", "Hot Drinks", "Water"],
-                Shops:["New cross", "Greenwich", "Deptford"],
+                Shops:["New cross", "Greenwich", "Deptford","Lewisham"],
                 Managers:["Ian", "Ben", "Sam", "Viv"]}
 
 // Handle the main routes
