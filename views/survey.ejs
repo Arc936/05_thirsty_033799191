@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Customer Survey</title>
+</head>
+<body>
+  <h1>Customer Survey</h1>
+  <form action="/survey" method="POST">
+    <label>First Name: <input type="text" name="firstName" required></label><br><br>
+    <label>Surname: <input type="text" name="surname" required></label><br><br>
+    <label>Email Address: <input type="email" name="email" required></label><br><br>
+
+    <label>How old are you? <input type="text" name="age" required></label><br><br>
+
+    <p>Which of the following drinks categories do you consume?</p>
+    <% productCategories.forEach((drink, index) => { %>
+      <label>
+        <input type="radio" name="productCategories" value="<%= drink %>" required>
+        <%= drink %>
+      </label><br>
+    <% }); %>
+
+    <br>
+    <label>
+      <input type="checkbox" name="isStudent" value="yes">
+      I am a student
+    </label><br><br>
+
+    <button type="submit">Submit Survey</button>
+  </form>
+</body>
+</html>

@@ -1,0 +1,15 @@
+h1 {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: blue; 
+font-size:80px; 
+text-align: center;
+}
+
+title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;
+    text-align: center;
+    color: #084b8f;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
